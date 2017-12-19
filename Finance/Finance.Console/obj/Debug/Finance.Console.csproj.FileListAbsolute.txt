@@ -1,0 +1,14 @@
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\Finance.Console.exe.config
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\Finance.Console.exe
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\Finance.Console.pdb
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\HttpCore.dll
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\HttpCore.pdb
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\obj\Debug\Finance.Console.csprojResolveAssemblyReference.cache
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\obj\Debug\Finance.Console.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\obj\Debug\Finance.Console.exe
+C:\Users\Sergei\Source\Repos\Finance\Finance.Console\obj\Debug\Finance.Console.pdb

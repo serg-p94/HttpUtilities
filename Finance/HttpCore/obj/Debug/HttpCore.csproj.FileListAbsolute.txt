@@ -1,0 +1,11 @@
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\HttpCore.dll
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\HttpCore.pdb
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\obj\Debug\HttpCore.csprojResolveAssemblyReference.cache
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\obj\Debug\HttpCore.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\obj\Debug\HttpCore.dll
+C:\Users\Sergei\Source\Repos\Finance\HttpCore\obj\Debug\HttpCore.pdb
