@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace HttpCore
+namespace Finance.Console
 {
     public class CurrencyApiModel
     {
@@ -9,5 +9,10 @@ namespace HttpCore
 
         [JsonProperty("Cur_Abbreviation")]
         public string Abbreviation { get; set; }
+
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
     }
 }

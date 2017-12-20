@@ -1,18 +1,22 @@
-﻿using HttpCore;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using System.Linq;
+using static System.Console;
 
 namespace Finance.Console
 {
     class Program
     {
-        private const int UsdId = 145;
-        private static readonly string FinanceUrl = $"http://www.nbrb.by/API/ExRates/Currencies/{UsdId}";
-
         static void Main(string[] args)
         {
             Task.Run(async () =>
             {
-                var data = await HtmlHelper.GetDataAsync<CurrencyApiModel>(FinanceUrl);
+                var apiService = new CurrencyApiService();
+
+                var allCurrencies = await apiService.GetAllCurrencies();
+                var usd = allCurrencies.Find(c =>
+                    string.Equals(c.Abbreviation, "USD", System.StringComparison.OrdinalIgnoreCase));
+                var usdInfo = await apiService.GetCurrencyRate(usd.CurrencyId);
+                WriteLine(usdInfo);
             }).Wait();
         }
     }

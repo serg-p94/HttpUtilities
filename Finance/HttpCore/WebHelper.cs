@@ -4,9 +4,9 @@ using Newtonsoft.Json;
 
 namespace HttpCore
 {
-    public static class HtmlHelper
+    public static class WebHelper
     {
-        public static async Task<HtmlDocument> LoadAsync(string url)
+        public static async Task<HtmlDocument> LoadHtmlAsync(string url)
         {
             return await Task.Run(() => new HtmlWeb().Load(url));
         }
@@ -24,6 +24,5 @@ namespace HttpCore
             var json = await GetStringAsync(url);
             return JsonConvert.DeserializeObject<TResult>(json);            
         }
-
     }
 }
